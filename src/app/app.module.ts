@@ -8,6 +8,8 @@ import { CategoryPageComponent } from './components/category-page/category-page.
 import { SinglePageComponent } from './components/single-page/single-page.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LatestRecipeComponent } from './components/latest-recipe/latest-recipe.component';
+import { RecipeCardComponent } from './components/recipe-card/recipe-card.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
     SinglePageComponent,
     NavComponent,
     FooterComponent,
+    LatestRecipeComponent,
+    RecipeCardComponent,
   ],
   imports: [
     BrowserModule,
